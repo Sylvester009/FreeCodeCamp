@@ -39,6 +39,7 @@ body {
 
 #img-caption {
   padding-top: 15px;
+  word-wrap: break-word;
 }
 
 #tribute-info {
