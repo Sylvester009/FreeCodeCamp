@@ -14,9 +14,11 @@ body {
 .container {
   background-color: #eeeeee;
   margin: 10px;
+  border-radius: 5px;
 }
 
 #title {
+  padding-top: 40px;
   margin-bottom: 0;
 }
 
@@ -49,16 +51,17 @@ body {
   padding-top: 25px;
 }
 
-ul {
+ul,
+.final-words {
   max-width: 550px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 25px auto;
   text-align: left;
   line-height: 1.6;
 }
 
 ul li {
-  word-wrap: break-word;
   padding-block: 5px;
+  margin: 16px 0;
 }
 
 li span {
@@ -70,13 +73,11 @@ li span {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-inline: 35px;
-  color: black;
+  padding-left: 25px;
 }
 
 .final-words span {
   padding-top: 10px;
-  text-align: left;
   padding-left: 10px;
 }
 
@@ -84,6 +85,7 @@ li span {
   font-weight: bold;
   color: #4b4747;
   margin-inline: 25px;
+  padding-bottom: 25px;
 }
 
 #tribute-link {
