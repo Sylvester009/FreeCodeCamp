@@ -45,10 +45,17 @@ body {
   font-weight: bold;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
 }
 
 ul li {
-  text-align: left;
   word-wrap: break-word;
   padding-block: 5px;
 }
@@ -75,6 +82,7 @@ li span {
 #tribute-last {
   font-weight: bold;
   color: #4b4747;
+  margin-inline: 25px;
 }
 
 #tribute-link {
