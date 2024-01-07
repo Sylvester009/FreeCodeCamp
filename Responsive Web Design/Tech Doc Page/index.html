@@ -16,14 +16,14 @@
       </header>
       <div class="nav-div">
         <a class="nav-link" href="#Introduction">Introduction</a>
-        <a class="nav-link" href="#already-know">What you should already know</a>
+        <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
         <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
-        <a class="nav-link" href="#h-world">Hello world</a>
+        <a class="nav-link" href="#Hello_world">Hello world</a>
         <a class="nav-link" href="#Variables">Variables</a>
-        <a class="nav-link" href="#D-var">Declaring variables</a>
-        <a class="nav-link" href="#var-scope">Variable scope</a>
-        <a class="nav-link" href="#global-var">Global variables</a>
-        <a class="nav-link" href="#const">Constants</a>
+        <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+        <a class="nav-link" href="#Variable_scope">Variable scope</a>
+        <a class="nav-link" href="#Global_variables">Global variables</a>
+        <a class="nav-link" href="#Constants">Constants</a>
         <a class="nav-link" href="#Data_types">Data Types</a>
         <a class="nav-link" href="#if...else_statement">If...else statement</a>
         <a class="nav-link" href="#While_statement">While statement</a>
@@ -49,7 +49,9 @@
             continuity of information from one invocation to another of the application, or perform file manipulations
             on a server.</li>
         </ul>
-        <h2 id="already-know">What you should already know</h2>
+        <section class="main-section" id="What_you_should_already_know">
+        <header id="already-know">What you should already know</header>
+      </section>
         <p>This guide assumes you have the following basic background:</p>
         <ul>
           <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -74,7 +76,9 @@
           and methods. You do not have to be concerned with whether methods are public, private, or protected, and you
           do not have to implement interfaces. Variables, parameters, and function return types are not explicitly
           typed.</p>
-        <h2 id="h-world">Hello world</h2>
+          <section class="main-section" id="Hello_world">
+        <header id="h-world">Hello world</header>
+        </section>
         <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
           code:</p>
         <code>function greetMe(yourName) { alert("Hello " + yourName); }
@@ -90,7 +94,9 @@
           (uppercase) and the characters "a" through "z" (lowercase).</p>
         <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape
           sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
-        <h2 id="D-var">Declaring variables</h2>
+          <section class="main-section" id="Declaring_variables">
+          <header id="D-var">Declaring variables</header>
+          </section>
         <p>You can declare a variable in three ways:</p>
         <p>With the keyword var. For example,</p>
         <code>var x = 42.</code>
@@ -102,7 +108,9 @@
         <p>With the keyword let. For example,</p>
         <code>let y = 13.</code>
         <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
-        <h2 id="var-scope">Variable scope</h2>
+        <section class="main-section" id="Variable_scope">
+        <header id="var-scope">Variable scope</header>
+      </section>
         <p> you declare a variable outside of any function, it is called a global variable, because it is available to
           any other code in the current document. When you declare a variable within a function, it is called a local
           variable, because it is available only within that function.</p>
@@ -118,7 +126,9 @@
         <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
 not defined
 </code>
-        <h2 id="global-var">Global variables</h2>
+<section class="main-section" id="Global_variables">
+        <header id="global-var">Global variables</header>
+      </section>
         <p>Global variables are in fact properties of the global object. In web pages the global object is window, so
           you can set and access global variables using the window.variable syntax.</p>
 
@@ -126,7 +136,9 @@ not defined
           specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document,
           you can refer to this variable from an iframe as parent.phoneNumber.</p>
 
-        <h2 id="const">Constants</h2>
+          <section class="main-section" id="Constants">
+        <header id="const">Constants</header>
+      </section>
         <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the
           same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain
           alphabetic, numeric, or underscore characters.</p>

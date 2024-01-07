@@ -67,7 +67,7 @@ header {
   margin-bottom: 110px;
 }
 
-h2 {
+header {
   font-weight: normal;
   color: black;
   margin: 0%;
@@ -118,5 +118,13 @@ code {
     position: relative;
     margin-left: 0px;
     margin-top: 270px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  #section-div {
+    padding: 0;
+    max-width: 100%;
   }
 }
