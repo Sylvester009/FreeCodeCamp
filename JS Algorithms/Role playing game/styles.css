@@ -1,45 +1,97 @@
 body {
-    background-color: #0a0a23;
-  }
-  
+  background-color: #0a0a23;
+  background-image: url(./images/fantasy-city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 15%;
+  left: 10px;
+  right: 20px;
+}
+
+#game {
+  max-height: 400px;
+  color: #ffffff;
+  margin: 10px auto 0px;
+  width: 100%;
+}
+
+#stats {
+  border-bottom: 1px solid #767681;
+  padding: 5px;
+  font-size: 20px;
+  font-style: italic;
+  color: #c70d0d;
+  font-weight: bold;
+}
+
+#controls {
+  position: fixed;
+  bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.img-div {
+  width: 100%;
+  margin: 0 auto;
+  height: 50%;
+}
+
+#image {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  width: 28%;
+  padding: 7px;
+}
+
+@media only screen and (min-width: 1024px) {
   #text {
-    background-color: #0a0a23;
-    color: #ffffff;
-    padding: 10px;
+    left: 41px;
   }
-  
-  #game {
-    max-width: 500px;
-    max-height: 400px;
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 30px auto 0px;
-    padding: 10px;
-  }
-  
-  #controls,
-  #stats {
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #0a0a23;
-  }
-  
+
   #monsterStats {
-    display: none;
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
+    height: 25%;
+    width: 50%;
+    margin: 5px auto;
   }
-  
-  .stat {
-    padding-right: 10px;
+
+  #image {
+    height: 300px;
   }
-  
-  button {
-    cursor: pointer;
-    color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
-  }
+}
