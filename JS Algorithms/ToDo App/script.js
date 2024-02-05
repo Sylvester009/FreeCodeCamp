@@ -14,7 +14,7 @@ const taskData = JSON.parse(localStorage.getItem("data")) || [];
 let currentTask = {};
 
 const addOrUpdateTask = () => {
-  addOrUpdateTaskBtn.innerText = "Add Task";
+  addOrUpdateTaskBtn.innerText = "Save Task";
   const dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
   const taskObj = {
     id: `${titleInput.value.toLowerCase().split(" ").join("-")}-${Date.now()}`,
@@ -67,6 +67,7 @@ const editTask = (buttonEl) => {
 
   currentTask = taskData[dataArrIndex];
 
+  taskForm.style.background = "yellow";
   titleInput.value = currentTask.title;
   dateInput.value = currentTask.date;
   descriptionInput.value = currentTask.description;
