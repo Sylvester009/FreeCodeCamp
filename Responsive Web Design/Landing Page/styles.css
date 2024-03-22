@@ -7,8 +7,138 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 5px;
 }
+
+#header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(83, 76, 76);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: darkorange;
+}
+
+#form-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form input {
+  max-width: 350px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: rgb(177, 172, 172);
+  margin-block-end: 15px;
+}
+
+form input:nth-of-type(2) {
+  color: black;
+  background-color: darkorange;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 5px 8px;
+  font-style: oblique;
+}
+
+#material p,
+#shipping p,
+#quality p {
+  word-wrap: break-word;
+  word-spacing: 3px;
+}
+
+.sub-material {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+i {
+  color: orangered;
+  padding: 15px;
+}
+
+#How_It_Works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.tenor,
+.bass,
+.valve {
+  border: 2px rgb(66, 65, 65) solid;
+  display: flex;
+  flex-direction: column;
+  margin-block: 15px;
+}
+
+.tenor h4,
+.bass h4,
+.valve h4 {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.price-tag {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn-div {
+  border: 0;
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.btn-div button {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  background-color: #f1c40f;
+}
+
+footer {
+  background-color: #ddd;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-nav,
+footer > p {
+  padding-right: 15px;
+  padding-block: 3px;
+}
+
+/**
 
 #header {
   display: flex;
@@ -30,17 +160,6 @@ main {
   top: 0;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: rgb(83, 76, 76);
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.nav-link:hover {
-  color: orangered;
-}
-
 #form-section {
   margin-top: 20px;
   text-align: center;
@@ -51,25 +170,9 @@ form {
   flex-direction: column;
 }
 
-form input {
-  max-width: 350px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 5px;
-  border-radius: 5px;
-  border-color: rgb(177, 172, 172);
-  margin-block-end: 15px;
-}
 
-form input:nth-of-type(2) {
-  width: auto;
-  color: black;
-  background-color: darkorange;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 8px 5px 8px;
-  font-style: oblique;
-}
+
+
 
 h2 {
   font-weight: 700;
@@ -206,5 +309,4 @@ h4 {
     padding-block: 0.6rem;
     width: 60vw;
     margin-top: 20px;
-  }
-}
+  }**/
